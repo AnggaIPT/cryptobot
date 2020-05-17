@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-red {
+    background-color: #f50057;
+    color: #ffffff;
+}
+.btn-red:hover {
+    background-color: #bb002f;
+    transition: .7s;
+    color: #ffffff;
+}
+
+.btn-yellow {
+    background-color: #ffc400;
+    color: #ffffff;
+}
+.btn-yellow:hover {
+    background-color: #c79400;
+    transition: .7s;
+    color: #ffffff;
+}
+
+.btn-blue {
+    background-color: #2979ff;
+    color: #ffffff;
+}
+.btn-blue:hover {
+    background-color: #004ecb;
+    transition: .7s;
+    color: #ffffff;
+}
