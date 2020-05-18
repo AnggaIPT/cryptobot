@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::get('/caesar', 'CaesarChiperController@index')->name('caesar.index');
 Route::get('/vigenere', 'VigenereChiperController@index')->name('vigenere.index');
-// Route::post('/caesar/encrypt', 'CaesarChiperController@encrypt')->name('caesar.encrypt');
+Route::get('/vernam', 'VernamChiperController@index')->name('vernam.index');

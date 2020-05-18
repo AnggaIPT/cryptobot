@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::post('/caesar/encrypt', 'CaesarChiperController@encrypt')->name('api.caesar.encrypt');
 Route::post('/vigenere/encrypt', 'VigenereChiperController@encrypt')->name('api.vigenere.encrypt');
+Route::post('/vernam/encrypt', 'VernamChiperController@encrypt')->name('api.vernam.encrypt');
